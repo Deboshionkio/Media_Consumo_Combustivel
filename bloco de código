@@ -1,0 +1,13 @@
+# calculo de consumo de combustivel
+
+#Neste trecho do código vamos pegar as kilometragens
+n1 = int (input('Digite a kilometragem inicial: '));
+n2 = int (input('digite a kilometragem final: '));
+
+#Aqui vai ser efetuado a operação para descobrir a kilometragem para a media km/litros
+km = n2 - n1;
+comb = float(input('Digite quantos litros de combustivel foi abastecido: '));
+media = km / comb;
+
+#Agora que já usamos as formulas corretas vamos imprimir na tela o resultado
+print(f'A media de consumo é de km {media:.2f} rodados por litro de combustivel!');
